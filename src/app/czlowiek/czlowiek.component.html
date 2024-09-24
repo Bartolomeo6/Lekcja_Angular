@@ -1,0 +1,5 @@
+<section>
+    <img [src]="czlowiek.zdjecie" alt="{{czlowiek.imie}}" width="200px">
+    <h3>{{czlowiek.imie}} {{czlowiek.nazwisko}}</h3>
+    <a [routerLink]="['/osoby', czlowiek.id]">Więcej informacji</a>
+</section>
